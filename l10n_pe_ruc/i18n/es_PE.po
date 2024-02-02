@@ -1,0 +1,227 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pe_ruc
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-02 06:19+0000\n"
+"PO-Revision-Date: 2024-02-02 06:19+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pe_ruc
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.res_partner_form__view_inherit
+msgid ""
+"<span>\n"
+"                        <strong>NO CONNECTION OR THE DATA DOES NOT EXIST, PLEASE REGISTER THE DATA MANUALLY.</strong>\n"
+"                    </span>"
+msgstr ""
+"<span>\n"
+"                        <strong>NO HAY CONEXION O LOS DATOS NO EXISTE, POR FAVOR REGISTRE LOS DATOS MANUALMENTE..</strong>\n"
+"                    </span>"
+
+#. module: l10n_pe_ruc
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.view_form_company_inherited
+msgid "API Identification Service (PE)"
+msgstr "API de Servicio de Identificación (PE)"
+
+#. module: l10n_pe_ruc
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_partner__l10n_pe_alert_contributor_state
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_users__l10n_pe_alert_contributor_state
+msgid "Alert State"
+msgstr "Estado de Alerta"
+
+#. module: l10n_pe_ruc
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_partner__l10n_pe_alert_warning_vat
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_users__l10n_pe_alert_warning_vat
+msgid "Alert warning vat"
+msgstr "Alerta de advertencia de RUC"
+
+#. module: l10n_pe_ruc
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.res_config_settings_view_form
+msgid "Api Token"
+msgstr "Token de API"
+
+#. module: l10n_pe_ruc
+#: model:ir.model,name:l10n_pe_ruc.model_res_city
+msgid "City"
+msgstr "Ciudad"
+
+#. module: l10n_pe_ruc
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.res_partner_form__view_inherit
+msgid "Commercial Name"
+msgstr "Nombre Comercial"
+
+#. module: l10n_pe_ruc
+#: model:ir.model,name:l10n_pe_ruc.model_res_company
+msgid "Companies"
+msgstr "Compañias"
+
+#. module: l10n_pe_ruc
+#: model:ir.model,name:l10n_pe_ruc.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustes de configuración"
+
+#. module: l10n_pe_ruc
+#: model:ir.model,name:l10n_pe_ruc.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: l10n_pe_ruc
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_partner__l10n_pe_state
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_users__l10n_pe_state
+msgid "Contributor Condition"
+msgstr "Condición del Contribuyente"
+
+#. module: l10n_pe_ruc
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_company__l10n_pe_dni_validation
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_config_settings__l10n_pe_dni_validation
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.res_config_settings_view_form
+msgid "DNI Validation"
+msgstr "Validación de DNI"
+
+#. module: l10n_pe_ruc
+#: model:ir.model,name:l10n_pe_ruc.model_l10n_pe_res_city_district
+msgid "District"
+msgstr "Distrito"
+
+#. module: l10n_pe_ruc
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.view_form_company_inherited
+msgid "Dni validation"
+msgstr "Validación de DNI"
+
+#. module: l10n_pe_ruc
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.res_config_settings_view_form
+msgid "Extract your client's data from SUNAT"
+msgstr "Extraiga los datos de sus clientes de SUNAT"
+
+#. module: l10n_pe_ruc
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.credit_banner
+msgid "Get Credits"
+msgstr "Obtener Créditos"
+
+#. module: l10n_pe_ruc
+#: model:ir.model.fields.selection,name:l10n_pe_ruc.selection__res_partner__l10n_pe_state__habido
+msgid "Habido"
+msgstr "Habido"
+
+#. module: l10n_pe_ruc
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.res_partner_form__view_inherit
+msgid "IAP Data"
+msgstr "Datos IAP"
+
+#. module: l10n_pe_ruc
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_partner__l10n_pe_contributor_state
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_users__l10n_pe_contributor_state
+msgid "L10N Pe Contributor State"
+msgstr "Estado del Contribuyente L10N Pe"
+
+#. module: l10n_pe_ruc
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_partner__l10n_pe_commercial_name
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_users__l10n_pe_commercial_name
+msgid "Name Commercial"
+msgstr "Nombre Comercial"
+
+#. module: l10n_pe_ruc
+#: model:ir.model.fields.selection,name:l10n_pe_ruc.selection__res_partner__l10n_pe_state__nhabido
+msgid "No Habido"
+msgstr "No Habido"
+
+#. module: l10n_pe_ruc
+#. odoo-python
+#: code:addons/l10n_pe_ruc/models/res_partner.py:0
+#, python-format
+msgid "No se encontraron datos para el número de RUC/DNI proporcionado."
+msgstr ""
+
+#. module: l10n_pe_ruc
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_company__l10n_pe_partner_token
+msgid "Partner token"
+msgstr "Token de socio"
+
+#. module: l10n_pe_ruc
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.res_config_settings_view_form
+msgid "Perú Identification API"
+msgstr "API de Identificación de Perú"
+
+#. module: l10n_pe_ruc
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_company__l10n_pe_ruc_validation
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_config_settings__l10n_pe_ruc_validation
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.res_config_settings_view_form
+msgid "RUC Validation"
+msgstr "Validación de RUC"
+
+#. module: l10n_pe_ruc
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_config_settings__l10n_pe_partner_token
+msgid "RUC token"
+msgstr "Token de RUC"
+
+#. module: l10n_pe_ruc
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_partner__l10n_pe_remote_id
+#: model:ir.model.fields,field_description:l10n_pe_ruc.field_res_users__l10n_pe_remote_id
+msgid "Remote ID"
+msgstr "ID Remoto"
+
+#. module: l10n_pe_ruc
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.view_form_company_inherited
+msgid "Ruc validation"
+msgstr "Validación de RUC"
+
+#. module: l10n_pe_ruc
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.res_config_settings_view_form
+msgid ""
+"Set a Partner service token to generate unlimited queries of RUC, DNI and "
+"Exchange Rate."
+msgstr ""
+"Establezca un token de servicio de socio para generar consultas ilimitadas "
+"de RUC, DNI y tipo de cambio."
+
+#. module: l10n_pe_ruc
+#. odoo-python
+#: code:addons/l10n_pe_ruc/models/res_partner.py:0
+#, python-format
+msgid "The Dni must be 8 characters long."
+msgstr "El DNI debe tener 8 caracteres de longitud."
+
+#. module: l10n_pe_ruc
+#. odoo-python
+#: code:addons/l10n_pe_ruc/models/res_partner.py:0
+#, python-format
+msgid "The Ruc must be 11 characters long."
+msgstr "El RUC debe tener 11 caracteres de longitud."
+
+#. module: l10n_pe_ruc
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.view_form_company_inherited
+msgid "Token validation"
+msgstr "Validación de token"
+
+#. module: l10n_pe_ruc
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.res_config_settings_view_form
+msgid "Validate the names and surnames of your contacts with DNI"
+msgstr "Valide los nombres y apellidos de sus contactos con DNI"
+
+#. module: l10n_pe_ruc
+#. odoo-python
+#: code:addons/l10n_pe_ruc/models/res_partner.py:0
+#: code:addons/l10n_pe_ruc/models/res_partner.py:0
+#: code:addons/l10n_pe_ruc/models/res_partner.py:0
+#: code:addons/l10n_pe_ruc/models/res_partner.py:0
+#, python-format
+msgid "Warning"
+msgstr "Advertencia"
+
+#. module: l10n_pe_ruc
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.credit_banner
+msgid "You have"
+msgstr "Tienes"
+
+#. module: l10n_pe_ruc
+#: model_terms:ir.ui.view,arch_db:l10n_pe_ruc.credit_banner
+msgid "credits left for consultations."
+msgstr "créditos restantes para consultas."

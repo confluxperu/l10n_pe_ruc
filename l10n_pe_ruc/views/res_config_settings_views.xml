@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.l10n_pe_ruc</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='companies']" position="after">
+                <block title="Perú Identification API" id="product_general_settings">
+                    <setting id="l10n_pe_partner_token_setting" string="Api Token" help="Set a Partner service token to generate unlimited queries of RUC, DNI and Exchange Rate.">
+                        <field name="l10n_pe_partner_token" class="o_light_label" options="{'horizontal': true}"/>
+                    </setting>
+                    <setting id="l10n_pe_ruc_validation_setting" string="RUC Validation" help="Extract your client's data from SUNAT">
+                        <field name="l10n_pe_ruc_validation" class="o_light_label" options="{'horizontal': true}"/>
+                    </setting>
+                    <setting id="l10n_pe_dni_validation_setting" string="DNI Validation" help="Validate the names and surnames of your contacts with DNI">
+                        <field name="l10n_pe_dni_validation" class="o_light_label" options="{'horizontal': true}"/>
+                    </setting>
+                </block>
+            </xpath>
+        </field>
+    </record>
+</odoo>
