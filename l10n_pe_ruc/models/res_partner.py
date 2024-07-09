@@ -249,7 +249,8 @@ class ResPartner(models.Model):
         if hasattr(threading.current_thread(), 'testing') and threading.current_thread().testing:
             raise exceptions.AccessError("Unavailable during tests.")
 
-        payload = params
+        #payload = params
+        payload = {}
 
         _logger.info('iap jsonrpc %s', url)
         try:
