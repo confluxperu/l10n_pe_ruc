@@ -118,7 +118,7 @@ class ResPartner(models.Model):
             "phone": company.phone,
             "email": company.email,
             "service": "partner",
-            "company_image": company.logo.decode("utf-8"),
+            # "company_image": company.logo.decode("utf-8"),
             "number": company.vat,
             "dbuuid": dbuuid,
         }
